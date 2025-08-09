@@ -1,0 +1,132 @@
+.jobscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+  background-size: cover;
+  height: 90vh;
+}
+.jobscontent {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .jobscontent {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+}
+.searchinputjobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15px;
+}
+.inputdesktop {
+  display: flex;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #7e858e;
+  margin: 10px;
+  height: 30px;
+}
+.search {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: Roboto;
+  height: 30px;
+  width: 300px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+.btns {
+  background-color: #475569;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.searchicon {
+  color: #ffffff;
+  width: 15px;
+  height: 15px;
+}
+@media screen and (max-width: 768px) {
+  .inputdesktop {
+    display: none;
+  }
+}
+.Loadercontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failureview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.failimg {
+  width: 400px;
+  height: 350px;
+}
+.failhead {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+.failpara {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+.failbtn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.nojobview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.nojobimg {
+  width: 250px;
+  height: 180px;
+}
+.nojobhead {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+.nojobpara {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+.joblistcont {
+  padding-left: 0px;
+  padding: 20px;
+  width: 900px;
+  height: 400px;
+}

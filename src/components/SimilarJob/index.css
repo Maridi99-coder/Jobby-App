@@ -1,0 +1,75 @@
+.similaritem {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  background-color: #202020;
+  width: 500px;
+  border-radius: 10px;
+}
+.logoscont {
+  display: flex;
+  align-items: center;
+}
+.similarlogo {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+.titlecont {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.ratecont {
+  display: flex;
+  align-items: center;
+}
+.rateicon {
+  color: #fbbf24;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.rating {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.deshead {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.destext {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.bcont {
+  display: flex;
+  align-items: center;
+}
+.lcont {
+  display: flex;
+  margin-right: 10px;
+}
+.loicon {
+  color: #ffffff;
+  font-size: 10px;
+}
+.lhead {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Roboto;
+}

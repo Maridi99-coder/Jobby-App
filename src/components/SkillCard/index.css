@@ -1,0 +1,17 @@
+.skillitem {
+  display: flex;
+  flex-direction: row;
+  margin-right: 150px;
+  margin-bottom: 20px;
+}
+.skillimg {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+.skillname {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: Roboto;
+  font-weight: bold;
+}
