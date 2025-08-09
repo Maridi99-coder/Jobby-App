@@ -4,6 +4,11 @@ A full-featured job search web application built with **React.js** that allows u
 
 ---
 
+## 🌐 Live Demo
+🔗 [Visit Jobby App](https://MariJobby.ccbp.tech)
+
+---
+
 ## 🚀 Features
 
 ### 🔑 Authentication
@@ -95,11 +100,27 @@ src/
    cd jobby-app
 
 🔑 Test Credentials
-makefile
-Copy
-Edit
+
 username: rahul
 password: rahul@2021
+
+
+## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/login.png)
+
+### Jobs Page
+![Jobs Page](screenshots/jobs.png)
+
+### Job Details Page
+![Job Details Page](screenshots/job-details.png)
+
+## Author
+
+**Maridi Kumar Koneti**  
+[GitHub Profile](https://github.com/MaridiKumarKoneti)  
+[LinkedIn](https://www.linkedin.com/in/maridi-kumar-koneti)  
 
 
 
